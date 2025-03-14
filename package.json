@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "format": "prettier --write \"test/**/*.js\"",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "test-sr": "npx hardhat test test/StudentRegistryV2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.10",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19"
+  },
+  "dependencies": {
+    "@chainlink/local": "^0.2.3",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "glob": "^11.0.1"
+  }
+}
