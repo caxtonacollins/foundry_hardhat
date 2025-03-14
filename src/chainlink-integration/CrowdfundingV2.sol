@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 import {console} from "forge-std/Test.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/AggregatorV3Interface.sol";
+// import "@chainlink/contracts/src/v0.7/interfaces/AggregatorV3Interface.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+// import "chainlink-local/src/data-feeds/interfaces/AggregatorV3Interface.sol";
 import "../../src/with-foundry/RewardToken.sol";
 import "../../src/with-foundry/RewardNft.sol";
 
