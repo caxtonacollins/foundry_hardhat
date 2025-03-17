@@ -10,11 +10,16 @@ remappings = [
     "eth-gas-reporter/=node_modules/eth-gas-reporter/",
     "hardhat/=node_modules/hardhat/",
     "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+    "@chainlink/contracts/=node_modules/@chainlink/contracts",
+    "@chainlink/contracts-ccip/=node_modules/@chainlink/contracts-ccip",
+    "@chainlink/local=node_modules/@chainlink/local"
 ]
 
 # [rpc_endpoints]
 # sepolia = "https://eth-sepolia.g.alchemy.com/v2/KX1L8OUxzzPpA2BK0oa2rRSbunp8M2aN"
 # fork_block_number = 7887153
+
+# forge test --match-test test_getLatestPrice --fork-url https://eth-sepolia.g.alchemy.com/v2/KX1L8OUxzzPpA2BK0oa2rRSbunp8M2aN --fork-block-number 7887222 -vvvv
 
 [fmt]
 line_length = 100
